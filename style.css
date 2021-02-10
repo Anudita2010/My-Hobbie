@@ -1,0 +1,95 @@
+body {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+      background: linear-gradient(#32CD32 0%,	#013220 100%)
+}
+
+.profile {
+    height: 200px;
+    width: 150px;
+    border-radius: 50%;
+   
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#page {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+.menu {
+
+    position: fixed;
+    top: 0px;
+    margin-top: 0px;
+    z-index: 10;
+    cursor: pointer;
+    width: 100%;
+    background: black;
+    height: 35px;
+   
+}
+
+.links {
+    display: inline;
+    color: #fff;
+    padding-left: 25px;
+    padding-right: 33px;
+    font-size: 20px
+}
+
+#2 {
+    text-decoration: underline;
+}
+.button {
+    background: black;
+    height: 50px;
+    font-family: 'Quicksand', sans-serif;
+    width:200px;
+}
+.button:hover{
+  font-size: 14px;  
+}
+
+a {
+ color:white;
+ text-decoration: none;
+}
+.review{
+    color: black !important;
+    font-weight:600;
+}
+#contact {
+    background:black;
+}
+
+#contact iframe {
+    width: 100%;
+}
+
+.contact_1 h3 {
+    display: inline;
+}
+
+.contact_1 a {
+    color: white;
+    text-shadow: none;
+}
+.bored {
+    height: 300px;
+    width:200px;
+    border-width: 7px;
+    border-color: black;
+}
